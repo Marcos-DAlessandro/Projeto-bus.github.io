@@ -1,0 +1,46 @@
+.btn-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  }
+
+.btn-name {
+  font-family: "inter", sans-serif;
+  font-weight: 300;
+  color: #F9FAFB;
+  font-size: 13px;
+  margin-bottom: 1px;
+  }
+
+.btn-content {
+  width: 154px;
+  height: 29px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.50);  
+  font-family: "inter", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  line-height: 29px;
+  cursor: pointer;
+  }
+
+.btn-orange .btn-content {
+  background-color: #F59E0B; 
+  color: #000;
+  }
+
+.btn-green .btn-content {
+  background-color: #28a745;
+  color: #fff;
+  }
+
+.btn-placa .btn-content {
+  width: 107px;  
+  height: 29px;   
+  }
+
+  .btn-status .btn-content {
+    width: 107px;  
+    height: 29px;   
+    }
