@@ -1,0 +1,66 @@
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.btn-filter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 18px;
+}
+
+.btn-filter.btn-embarque{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+
+.btn-filter.btn-desembarque{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 6px;
+}
+
+
+.filter-content {
+    display: inline-block;
+    padding: 5px 423px 5px 8px;
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #837B7B;
+    background: #f2f2f2;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.50); ;
+    cursor: pointer;
+
+    position: relative;
+}
+
+.filter-content:hover {
+    background: #e0e0e0;
+}
+
+.filter-content:active {
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+.filter-content::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 12px; 
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5.5px solid transparent;
+    border-right: 5.5px solid transparent;
+    border-top: 8px solid #837B7B;
+}
