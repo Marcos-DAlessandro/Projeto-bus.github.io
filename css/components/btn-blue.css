@@ -1,0 +1,38 @@
+.btn-blue{
+    display: flex;
+    
+}
+
+.blue-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffff;
+    background: #2563EB;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+    position: relative;
+}
+
+.blue-content.blue-info{
+    padding: 8px 23px; 
+    margin-left: 23%;
+}
+
+.blue-content.blue-inc{
+    margin-left: 8%;
+    padding: 8px 29px; 
+}
+
+.blue-content.blue-time{
+    margin-left: 8%;
+    padding: 8px 34px; 
+    
+}
+
