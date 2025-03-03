@@ -1,6 +1,6 @@
 html,body{
     background-color: #D0D4D9;
-    height: 100%; /* Garante que o body ocupe toda a altura da tela */
+    height: 100%; 
     margin: 0;
     padding: 0;
 }
