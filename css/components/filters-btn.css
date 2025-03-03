@@ -1,18 +1,3 @@
-.filters {
-    display: flex;
-    flex-direction: column; 
-    width: 100%;
-}
-
-.top-side {
-    display: flex;
-    justify-content: space-between; 
-    width: 100%;
-    margin-top: 1.5%;
-    
-    
-}
-
 .btn-filter {
     display: flex;
     flex-direction: column;
@@ -31,24 +16,16 @@
     margin-right: 5%; 
 }
 
-
-.bottom-side {
-    display: flex;
-    width: 100%;
-    margin-top: 0.8%;
-    margin-left: 5%;
-}
-
 .btn-filter.btn-cpf{
     width: 30%;
+    margin-left: 5%;
 }
 
 .btn-filter.btn-checkin{
     width: 8%;
     margin-left: 1.5%;
-    margin-right: 5%;
+    
 }
-
 
 .filter-content {
     display: flex;

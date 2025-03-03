@@ -1,5 +1,7 @@
 .btn-blue{
     display: flex;
+    margin-left: auto;
+    margin-right: 7.2%;
     
 }
 
@@ -22,7 +24,6 @@
 
 .blue-content.blue-info{
     padding: 8px 23px; 
-    margin-left: 23%;
 }
 
 .blue-content.blue-inc{
@@ -33,5 +34,6 @@
 .blue-content.blue-time{
     margin-left: 8%;
     padding: 8px 34px; 
+    
     
 }

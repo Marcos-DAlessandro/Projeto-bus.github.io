@@ -1,0 +1,22 @@
+.filters {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+}
+
+.top-side {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    margin-top: 1.5%;
+}
+
+.bottom-side {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    margin-top: 0.8%;
+    
+}
+
